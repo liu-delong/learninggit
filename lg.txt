@@ -5,4 +5,9 @@ Git 命令
 4.git commit -m "message" 把缓存区中的文件提交到仓库。
 5.git status 查看工作区当前状态。
 6.git diff 查看库中的文件与工作区的不同。
- 
+7.git log 查看更新日志。
+8.git log --pretty=oneline 精简版更新日志。
+9.git reset --hard HEAD^ 回到上一个仓库版本。
+10.git reset --hard HEAD~5 回到往上第五个版本。
+11.git reset --hard 171207 去到指定版本号版本。
+12.git reflog 查看当前分支指针移动的记录。 .
