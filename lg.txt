@@ -1,4 +1,4 @@
-Git 命令
+gGit 命令
 1.pwd  显示当前文件夹目录
 2.git init  在这个文件夹里创建git 仓库
 3.git add lg.txt 把这个文件加到缓存区。
@@ -13,3 +13,7 @@ Git 命令
 12.git reflog 查看当前分支指针移动的记录。
 13.git checkout -- lg.txt 撤销指定文件在工作区中的修改，使它和最近的缓存区或仓库的版本一致。
 14.git reset HEAD lg.txt 在缓存区中清除指定文件。防止其提交。
+15.rm test.txt 在工作区中删除某个文件
+16.git rm test.txt 在工作区中删除某个文件，并把删除修改移动到缓存区中。或把工作区的删除修改添加到缓存区中，以提交仓库。
+17.git checkout -- test.txt 用版本仓库中的版本替换工作区的版本。如果是误删，可用此方法恢复一定损失，但是用之前先把缓存区的删除修改撤销回工作区。因为git checkout -- test.txt是把最近的add或者commitd的版本替换工作区的版本。
+18.ssh-keygen -t rsa -C "1589075757@qq.com" 在某设备上创建密钥。
