@@ -10,4 +10,6 @@ Git 命令
 9.git reset --hard HEAD^ 回到上一个仓库版本。
 10.git reset --hard HEAD~5 回到往上第五个版本。
 11.git reset --hard 171207 去到指定版本号版本。
-12.git reflog 查看当前分支指针移动的记录。 .
+12.git reflog 查看当前分支指针移动的记录。
+13.git checkout -- lg.txt 撤销指定文件在工作区中的修改，使它和最近的缓存区或仓库的版本一致。
+14.git reset HEAD lg.txt 在缓存区中清除指定文件。防止其提交。
