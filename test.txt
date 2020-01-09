@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 I'm learning git,now i'm testing branch merge step3
 
-=======
-I'm learning git,now i'm testing branch merge step3
->>>>>>> feature1
+
