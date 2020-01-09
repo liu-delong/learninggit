@@ -17,3 +17,13 @@ gGit 命令
 16.git rm test.txt 在工作区中删除某个文件，并把删除修改移动到缓存区中。或把工作区的删除修改添加到缓存区中，以提交仓库。
 17.git checkout -- test.txt 用版本仓库中的版本替换工作区的版本。如果是误删，可用此方法恢复一定损失，但是用之前先把缓存区的删除修改撤销回工作区。因为git checkout -- test.txt是把最近的add或者commitd的版本替换工作区的版本。
 18.ssh-keygen -t rsa -C "1589075757@qq.com" 在某设备上创建密钥。
+19.git remote add origin git@github.com:liu-delong/learninggit.git 关联远程仓库。
+20.git remote rm origin 取消关联远程仓库。
+21.git push -u origin master  把master分支的内容推送到远程，并把远程的master和本地的master关联起来。
+22.git push origin master 把master分支推送到远程。
+22.git clone git@github.com:liu-delong/gitskills.git 克隆远程仓库到所在文件夹（会在所在文件夹中新建一个git管理的文件夹(库中库)）
+23.git checkout -b dev 创建并移动到dev分支。
+24.git branch dev 创建dev 分支。
+25.git checkout dev 移动到dev分支。
+26.git branch 查看当前分支。
+
