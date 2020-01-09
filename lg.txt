@@ -45,4 +45,8 @@ gGit 命令
 43.git stash show stash@{2} -p 显示第3条隐藏所作的修改（详细）
 44.git stash clear 清空所有隐藏记录
 45.git cherry-pick 063a01c 把别的分支的06301c 提交的修改拷贝到当前分支。
-46.
+46.git branch -D feature 删除还没有合并的分支。
+47.git remote -v 查看远程库信息以及权限。
+48.git checkout -b dev origin/dev 创立远程库的dev到本地。
+49.git pull 拉取远程的修改，以解决冲突。
+50.git branch --set-upstream-to=origin/dev dev 把远程的dev分支和本地的dev分支链接起来。
