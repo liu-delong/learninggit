@@ -1,1 +1,2 @@
-I'm learning git,now i'm testing diff
+I'm learning git,now i'm testing branch merge step2
+
