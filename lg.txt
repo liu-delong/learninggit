@@ -56,3 +56,11 @@ gGit 命令
 54.git tag -a v0.1 -m "this is shuoming" 1094adb 带有说明的标签。
 55.git shwo v0.1 查看v0.1标签的提交。
 56.git push origin v0.1 把v0.1标签的提交在对应的远程库中贴标签。
+57.git tag -d v1.0 删除标签。
+58.git push origin --tags 一次性推送还没有推送到远程库的标签。
+59.git push origin  :refs/tags/v1.0 删除远程库的标签，但要先删除本地标签。
+60.可以写一个.gitignore 文件，上面写上文件名，然后提交。以后就能忽略这些文件。这些文件不会被提交。
+61.git add -f test_3.txt 强制把忽略的文件添加到缓存区。
+62.git config --global alias.st status 把git status 定义一个别名 st 以后git st就是git status.
+63.git dsl 查看提交日志（别名）
+64.git dek 撤销缓存区 （别名）
